@@ -21,6 +21,41 @@
         color: #ffffff;
         overflow-x: hidden; 
     }
+
+    /* Custom Scrollbar Styles */ 
+    ::-webkit-scrollbar {
+        width: 10px; 
+    } 
+
+    ::-webkit-scrollbar-track {
+        background: #0a0a0a; 
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: linear-gradient(180deg, #8dff69, #6FE047) ; 
+        border-radius: 5px; 
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #A8FF8D, #5BC92E); 
+    }
+
+    /* Firefox Scrollbar Styles */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #6FE047 #0a0a0a;
+    } 
+
+    /* Hide Scrollbar for Carousel */ 
+    .hide-scrollbar {
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none; 
+    }
+
+    
  }
 
- 
