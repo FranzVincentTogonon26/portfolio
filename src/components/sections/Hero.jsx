@@ -12,7 +12,8 @@ function Hero() {
 
   return (
     <section className='relative min-h-screen flex items-center overflow-hidden bg-black'>
-        {/* <RadialGradientBackground variant="Hero" /> */}
+      
+        <RadialGradientBackground variant="Hero" />
 
         {/* Content Container */}
         <div className='relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full'>
@@ -76,11 +77,11 @@ function Hero() {
                       <div className='relative overflow-hidden rounded-2xl aspect-4/5 max-w-[500px] mx-auto lg:ml-auto group'>
 
                         <div className='absolute inset-0 rounded-2xl overflow-hidden'>
-                          <div className='absolute inset-[-2px] bg-linear-to-r from-primary/20 via-primary/10 to-primary animate-spin-slow rounded-2xl '></div>
+                          <div className='absolute inset-0 bg-linear-to-r from-primary/20 via-primary/10 to-primary animate-spin-slow rounded-2xl '></div>
                         </div>
 
                         {/* Image Container */}
-                        <div className='relative rounded-2xl overflow-hidden m-[4px] h-[calc(100%-2px)] '>
+                        <div className='relative  overflow-hidden m-[2px] h-[calc(100%-2px)] '>
                           <img src="/developer-portrait.png" alt="Developer at work" className='w-full h-full object-cover' />
                         </div>
 
