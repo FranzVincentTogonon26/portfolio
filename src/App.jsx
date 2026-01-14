@@ -1,13 +1,17 @@
 import Navbar from "./components/layout/Navbar"
+import Hero from "./components/sections/Hero"
 
 
 
 function App() {
 
   return (
-    <main>
+    <div className="min-h-screen bg-black">
       <Navbar />
-    </main>
+      <main>
+        <Hero />
+      </main>
+    </div>
   )
 }
 

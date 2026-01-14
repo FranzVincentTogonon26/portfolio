@@ -2,8 +2,8 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='h-[1400px]'>Navbar</div>
+    <div >Navbar</div>
   )
 }
 
-export default Navbar
+export default Navbar 
