@@ -1,3 +1,5 @@
+import { SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
+
 export const PERSONAL_INFO = {
     name: "Franz",
     title: "React Developer & UI/UX Enthusiast",
@@ -38,4 +40,13 @@ export const NAV_LINKS = [
     { id: "projects", label: "Projects" },
     { id: "services", label: "Services" },
     { id: "contact", label: "Contacts" }
+];
+
+export const SKILLS = [
+    { name: 'React.js', icon: SiReact, color: '#61DAFB '},
+    { name: 'Next.js', icon: SiNextdotjs, color: '#000000 '},
+    { name: 'TypeScript', icon: SiTypescript, color: '#3178C6 '},
+    { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4 '},
+    { name: 'Node.js', icon: SiNodedotjs, color: '#339933 '},
+    { name: 'MongoDB', icon: SiMongodb, color: '#47A248 '}
 ];
