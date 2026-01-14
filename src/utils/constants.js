@@ -1,8 +1,8 @@
 export const PERSONAL_INFO = {
     name: "Franz",
-    title: "Frontend Developer",
+    title: "React Developer & UI/UX Enthusiast",
     email: "franz@gmail.com",
-    location: "City, Country",
+    location: "San Francisco, CA",
     tagline: "Creating seamless web experiences",
     resume: "https://example.com/resume.pdf",
     bio: [
