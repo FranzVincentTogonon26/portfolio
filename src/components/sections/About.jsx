@@ -19,7 +19,7 @@ function About() {
             <div className='flex flex-col gap-8'>
 
               <FadeIn delay={60}>
-                <div className='inline-flex items-center gap-2.5 px-5 py-2.5 border border-primary/15 bg-primary/8 rounded-lg'>
+                <div className='inline-flex items-center gap-2.5 px-5 py-2.5 border border-primary/15 bg-primary/8 rounded-full'>
                   <Code2 className='w-4 h-4 text-primary' />
                   <span className='text-sm text-primary font-medium'>Full Stack Developers</span>
                   <Sparkles className='w-4 h-4 text-primary' />
@@ -75,7 +75,7 @@ function About() {
           <FadeIn delay={200} >
             <div className='grid grid-cols-2 gap-4 '>
                   <div className='col-span-2 relative group'>
-                    <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div>
+                    {/* <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div> */}
                     <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300'>
                         <div className='flex items-start gap-4'>
                           <div className='p-3 bg-primary/10 rounded-xl'>
@@ -92,7 +92,7 @@ function About() {
                   </div>
 
                   <div className='relative group'>
-                    <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div>
+                    {/* <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div> */}
                     <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300'>
                       <div className='p-3 bg-primary/10 rounded-xl w-fit mb-4'>
                           <Sparkles className='w-5 h-5 text-primary' />
@@ -105,7 +105,7 @@ function About() {
                   </div>
 
                   <div className='relative group'>
-                    <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div>
+                    {/* <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div> */}
                     <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300'>
                       <div className='p-3 bg-primary/10 rounded-xl w-fit mb-4'>
                         <Download className='w-5 h-5 text-primary' />
@@ -118,7 +118,7 @@ function About() {
                   </div>
 
                   <div className='col-span-2 group'>
-                    <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div>
+                    {/* <div className='absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-10 group-hover:opacity-75 transition-opacity duration-300'></div> */}
                     <div className='relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300'>
                       <div className='grid grid-cols-3 gap-6 text-center'>
                         <div>
