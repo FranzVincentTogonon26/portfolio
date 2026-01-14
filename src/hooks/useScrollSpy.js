@@ -42,7 +42,7 @@ export const useScrollSpy = (sectionIds, offset = 100) => {
 
 // Smooth scroll to a section
 
-export const scrollToSection = (sectionIds, offset = 80 ){
+export const scrollToSection = (sectionIds, offset = 80 ) => {
     const section = document.getElementById(sectionIds);
 
     if(section){
