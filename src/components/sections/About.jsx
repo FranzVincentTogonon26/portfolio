@@ -2,7 +2,7 @@ import React from 'react'
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground'
 import FadeIn from '../animations/FadeIn'
 import { Code2, Download, Sparkles } from 'lucide-react'
-import { ABOUT_STATS, PERSONAL_INFO } from '../../utils/constants'
+import { ABOUT_STATS, PERSONAL_INFO, SKILLS } from '../../utils/constants'
 
 function About() {
   return (
@@ -10,7 +10,7 @@ function About() {
 
       <RadialGradientBackground variant='about' />
 
-      <div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
         {/* main Grid */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20'>
 
@@ -141,6 +141,36 @@ function About() {
           </FadeIn>
 
         </div>
+
+        {/*  Skills Grid Section */}
+          <FadeIn delay={500} >
+            <div className='flex flex-col items-center gap-8 '>
+
+              <div className='text-center'>
+                  <h3 className='text-2xl font-normal text-white mb-2'> Tech Stack & Expertise </h3>
+                  <p className='text-sm text-white/60'>
+                    Technologies I work with to build amazing products
+                  </p>
+              </div>
+              <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 w-full max-w-4xl gap-4'>
+                  {SKILLS.map((skill, index) => (
+                    <div 
+                      key={index}
+                      className='group relative bg-white/5 hover:bg-white/10 border border-white/10 hover:border-primary/50 rounded-2xl p-6 flex flex-col items-center justify-center gap-3 transition-all duration-300'
+                    >
+                      {/* Hover Glow Effects */}
+                      <div className='absolute inset-0 bg-linear-to-br from-primary/5 to-primary/0 group-hover:from-primary/10 group-hover:to-primary/10 rounded-2xl transition-all duration-300 z-0 pointer-events-none'></div>
+                      <skill.icon className='text-3xl text-primary z-10 relative' />
+                      <div className='text-sm text-white/80 font-medium text-center z-10 relative'>
+                        {skill.name}
+                      </div>
+                    </div>
+                  ))}
+              </div>
+
+            </div>
+          </FadeIn>
+
       </div>
 
     </section>
