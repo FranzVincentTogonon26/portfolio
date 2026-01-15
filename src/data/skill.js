@@ -8,7 +8,7 @@ export const skills  =  [
     },
     {
         id: 2,
-        name: "React",
+        name: "React.js",
         icon: "FileCode",
         level: "Expert",
         experience: "3 years"
@@ -36,9 +36,44 @@ export const skills  =  [
     },
     {
         id: 6,
-        name: "Node.js  ",
+        name: "Node.js",
         icon: "Server",
-        level: "Advanced",
+        level: "Intermediate",
         experience: "2 years"
+    },
+    {
+        id: 7,
+        name: "Git & GitHub",
+        icon: "GitBranch",
+        level: "Intermediate",
+        experience: "1 years"
+    },
+    {
+        id: 9,
+        name: "REST APIs",
+        icon: "Globe",
+        level: "Intermediate",
+        experience: "1 years"
+    },
+    {
+        id: 10,
+        name: "Responsive Design",
+        icon: "Smartphone",
+        level: "Intermediate",
+        experience: "2 years"
+    },
+    {
+        id: 11,
+        name: "Figma",
+        icon: "Figma",
+        level: "Intermediate",
+        experience: "1 years"
+    },
+    {
+        id: 12,
+        name: "Vite",
+        icon: "Rocket",
+        level: "Intermediate",
+        experience: "1 years"
     }
 ];
