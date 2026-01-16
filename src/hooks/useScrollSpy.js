@@ -7,11 +7,14 @@ export const useScrollSpy = (sectionIds, offset = 100) => {
 
         const handleScroll = () => {
 
-            const scrollPostion = window.screenY + offset;
+            const scrollPostion = window.scrollY + offset;
 
             // Find the currrent section
-            for( let i = sectionIds.lenght - 1; i >= 0; i-- ){
+            for( let i = sectionIds.length - 1; i >= 0; i-- ){
+                
                 const section = document.getElementById(sectionIds[i]);
+
+                // console.log(section)
 
                 if(section){
                     const sectionTop = section.offsetTop;
@@ -29,7 +32,7 @@ export const useScrollSpy = (sectionIds, offset = 100) => {
 
         window.addEventListener('scroll', handleScroll, {passive: true });
 
-        return() => {
+        return () => {
             window.removeEventListener('scroll', handleScroll);
         };
 
