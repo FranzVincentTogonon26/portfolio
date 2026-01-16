@@ -6,7 +6,7 @@
         company: "TechCorp",
         image: "/images/testimonials/persona1.jpg",
         feedback: "This developer transformed our online presence with a stunning website that boosted our sales by 30%.",
-        rating: 5
+        rating: 2
     },
     {
         id: 2,
@@ -15,7 +15,7 @@
         company: "TechCorp",
         image: "/images/testimonials/persona1.jpg",
         feedback: "This developer transformed our online presence with a stunning website that boosted our sales by 30%.",
-        rating: 5
+        rating: 3
     },
     {
         id: 3,
@@ -24,7 +24,7 @@
         company: "TechCorp",
         image: "/images/testimonials/persona1.jpg",
         feedback: "This developer transformed our online presence with a stunning website that boosted our sales by 30%.",
-        rating: 5
+        rating: 2
     },
     {
         id: 4,
@@ -33,6 +33,6 @@
         company: "TechCorp",
         image: "/images/testimonials/persona1.jpg",
         feedback: "This developer transformed our online presence with a stunning website that boosted our sales by 30%.",
-        rating: 5
+        rating: 1
     }
  ];

@@ -1,7 +1,7 @@
 import { SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export const PERSONAL_INFO = {
-    name: "Franz",
+    name: "Code",
     title: "React Developer & UI/UX Enthusiast",
     email: "franz@gmail.com",
     location: "San Francisco, CA",
