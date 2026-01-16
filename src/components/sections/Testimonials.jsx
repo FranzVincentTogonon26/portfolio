@@ -12,7 +12,7 @@ function Testimonials() {
         setCurrentIndex(index);
         if(scrollContainerRef.current){
             const cardWidth = scrollContainerRef.current.offsetWidth;
-            scrollContainerRef.current.scrollo({
+            scrollContainerRef.current.scrollTo({
                 left: cardWidth * index,
                 behavior: 'smooth'
             })
@@ -155,7 +155,7 @@ function Testimonials() {
                      </div>
 
                     <button
-                        className='flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 lg:-translate-x-4 items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300 z-10'
+                        className='flex absolute left-0 top-30 lg:-translate-x-4 items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300 z-10'
                         onClick={prevTestimonial}
                         aria-label='Previous Testimonials'
                     >
@@ -163,7 +163,7 @@ function Testimonials() {
                     </button>
 
                     <button
-                        className='flex absolute right-0 top-1/2 -translate-y-1/2 -translate-x-2 lg:-translate-x-4 items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300 z-10'
+                        className='flex absolute right-0 top-30 lg:-translate-x-4 items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300 z-10'
                         onClick={nextTestimonial}
                         aria-label='Next Testimonials'
                     >
